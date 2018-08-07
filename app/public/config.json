@@ -1,0 +1,11 @@
+{
+"loadMaster" : [{
+"table" : "shipments_data",
+"parent circle" : "new_shipment_id",
+"children circle" : "shipment_id",
+"parent size": "new_weight",
+"children size": "weight",
+"parent tooltip": "new_cost",
+"children tooltip": "cost"
+ }]
+}
